@@ -1,0 +1,12 @@
+/* .wrapper{
+  width: 400px;
+  height: 200px;
+  border: 1px solid red; 
+}
+.inner{
+  box-sizing: border-box;
+  width: 50%;
+  height: 50%;
+  border: inherit;
+  border-color: blueviolet;
+} */
