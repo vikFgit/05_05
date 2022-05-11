@@ -57,7 +57,7 @@
   color: var(--dark_color);
   background: transparent;
   cursor: pointer;
-  
+
   font-size: 1.1em;
   text-decoration: none;
 } 
@@ -65,4 +65,24 @@
   background-color: var(--dark_color);
   color: var(--light_color);
 }
-
+.two_p_inversion {
+  display: block;
+  line-height: 1.6;
+  text-align: center;
+}
+.two_p_inversion p:first-child,
+.div_footer:first-child, 
+.div_footer:last-child {
+  padding: 20px;
+  background-color: var(--dark_color);
+  color: var(--light_color);
+}
+.two_p_inversion p:last-child{
+  padding: 20px;
+}
+.div_footer{
+  display: inline-block;
+  width: 33.33%;
+  padding: 20px;
+  line-height: 1.6;
+}
